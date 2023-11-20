@@ -3,31 +3,31 @@
 This library provides functions and structures for controlling an I2C OLED display using the ESP-IDF framework. It includes features for drawing pixels, characters, BMP images, and XBM images on the OLED display. The library is designed to work with the ESP32 microcontroller.
 
 ##    Usage
--        Initialization
--        Drawing Pixels
--        Drawing Characters
--        Drawing BMP Images
--        Drawing XBM Images
+- Initialization
+- Drawing Pixels
+-  Drawing Characters
+- Drawing BMP Images
+- Drawing XBM Images
 ##    Structures
--        i2c_oled_t
--        bmp_t
--        xbm_t
+- i2c_oled_t
+- bmp_t
+- xbm_t
 ##    Functions
--        i2c_init_master
--        i2c_oled_refresh
--        i2c_oled_clear
--        i2c_oled_init
--        i2c_oled_draw_pixel
--        gen_bmp
--        draw_bmp
--        gen_xbm
--        draw_xbm
--        i2c_oled_draw_char
--        i2c_oled_text_newline
--        i2c_oled_invert_line
--        i2c_oled_reset_cols
--        draw_char
--        i2c_oled_draw_string
+- i2c_init_master
+- i2c_oled_refresh
+- i2c_oled_clear
+- i2c_oled_init
+- i2c_oled_draw_pixel
+- gen_bmp
+- draw_bmp
+- gen_xbm
+- draw_xbm
+- i2c_oled_draw_char
+- i2c_oled_text_newline
+- i2c_oled_invert_line
+- i2c_oled_reset_cols
+- draw_char
+- i2c_oled_draw_string
 
 ## Example usage
 ```
