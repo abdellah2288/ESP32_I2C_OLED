@@ -53,6 +53,7 @@ void app_main(void)
     i2c_oled_init(&oled);
     i2c_oled_clear(&oled);
     i2c_oled_draw_string(&oled,"Test",4,1);
+    i2c_oled_refresh(&oled);
     while(1)
     {
     printf("Ping !\n");
